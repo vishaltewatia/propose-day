@@ -160,7 +160,7 @@ function drawText() {
   if (frameNumber > 1200 && frameNumber < 1500) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "to be alive, and to get to spend this life with you",
+      "to be alive, and to get to spend every moment of this small life with you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -169,7 +169,7 @@ function drawText() {
   if (frameNumber >= 1500 && frameNumber < 1800) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "to be alive, and to get to spend this life with you",
+      "to be alive, and to get to spend every moment of this small life with you",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -208,7 +208,7 @@ function drawText() {
       drawTextWithLineBreaks(
         [
           "and yet here I am to get the impossible",
-          "chance to get to know you",
+          "chance to get to know you,well i know you thoda bohot hehe",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -217,7 +217,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and yet here I am to get the impossible chance to get to know you",
+        "and yet here I am to get the impossible chance to get to know you,well i know you thoda bohot hehe",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -232,7 +232,7 @@ function drawText() {
       drawTextWithLineBreaks(
         [
           "and yet here I am to get the impossible",
-          "chance to get to know you",
+          "chance to get to know you,well i know you thoda bhot hehe",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -241,7 +241,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and yet here I am to get the impossible chance to get to know you",
+        "and yet here I am to get the impossible chance to get to know you,well i know you thoda bhot hehe",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -259,8 +259,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "I love you so much , more than",
-          "all the time and space in the universe can contain",
+          "I care you so much , more than",
+          "all the time and space in the universe can contain hehe you know na i can't write some words shyyy",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -269,7 +269,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "I love you so much , more than all the time and space in the universe can contain",
+        "I care you so much , more than all the time and space in the universe can contain hehe you know na i can't write some words shyyy",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -285,7 +285,7 @@ function drawText() {
       drawTextWithLineBreaks(
         [
           "and I can't wait to spend all the time in",
-          "the world to share that love with you!",
+          "the world to share that care with you!",
         ],
         canvas.width / 2,
         canvas.height / 2 + 70,
@@ -294,7 +294,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "and I can't wait to spend all the time in the world to share that love with you!",
+        "and I can't wait to spend all the time in the world to share that care with you!",
         canvas.width / 2,
         canvas.height / 2 + 50
       );
