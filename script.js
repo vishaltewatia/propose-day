@@ -116,8 +116,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amongst millions of stars,
-         "over after billions of years we finally met"],
+        ["amongst millions of stars,over billions of years we finally met"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -125,8 +124,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst millions of stars,
-        "over after billions of years we finally met",
+        "amongst millions of stars,over billions of years we finally met",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -140,7 +138,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         ["amongst millions of stars,
-         "over after billions of years we finally met"],
+         "over billions of years we finally met"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -148,8 +146,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst millions of stars,
-        "over after billions of years we finally met",
+        "amongst millions of stars,over billions of years we finally met",
         canvas.width / 2,
         canvas.height / 2
       );
