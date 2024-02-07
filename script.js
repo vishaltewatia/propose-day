@@ -56,7 +56,7 @@ function updateStars() {
 const button = document.getElementById("valentinesButton");
 
 button.addEventListener("click", () => {
-  if (button.textContent === "Click Me💖😼") {
+  if (button.textContent === "Click Me! ❤️") {
     button.textContent = "loading...";
     fetch("send_mail.php")
       .then((response) => {
@@ -100,7 +100,7 @@ function drawText() {
   if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "Everyday I cannot believe how lucky I am",
+      "everyday I cannot believe how lucky I am",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -116,7 +116,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amongst millions of stars,", "over billions of years we both met randomly like stars wanted to meet"],
+        ["amongst millions of stars," "over billions of years we both met randomly like stars wanted to meet"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -124,7 +124,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst millions of stars,over billions of years we both met randomly like stars wanted to meet",
+        "amongst millions of stars, over billions of years we both met randomly like stars wanted to meet",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -137,7 +137,7 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amongst millions of stars,", "over billions of years we both met randomly like stars wanted to meet"],
+        ["amongst millions of stars," "over billions of years we both met randomly like stars wanted to meet"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -145,7 +145,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst millions of stars,over billions of years we both met randomly like stars wanted to meet",
+        "amongst millions of stars, over billions of years we both met randomly like stars wanted to meet",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -259,7 +259,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "I love you for All that you are",
+          "I love you for All that you are"
           "All that you have been and All that you will be ",
         ],
         canvas.width / 2,
@@ -285,7 +285,7 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "and I can't wait to spend all the time in",
+          "and I can't wait to spend all the time in"
           "the world to share that love with you!",
         ],
         canvas.width / 2,
