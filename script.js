@@ -90,7 +90,7 @@ function drawText() {
   if (frameNumber < 300) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "everyday day I cannot believe how lucky I am",
+      "everyday I cannot believe how lucky I am",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -100,7 +100,7 @@ function drawText() {
   if (frameNumber >= 300 && frameNumber < 600) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "everyday day I cannot believe how lucky I am",
+      "everyday I cannot believe how lucky I am",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -116,7 +116,8 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amongst trillions and trillions of stars,", "over billions of years"],
+        ["amongst stars",
+         "over billions years we finally met"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -124,7 +125,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst trillions and trillions of stars, over billions of years",
+        "amongst stars,over billions years we finally met",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -137,7 +138,8 @@ function drawText() {
 
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
-        ["amongst trillions and trillions of stars,", "over billions of years"],
+        ["amongst stars",
+         "over billions years we finally met"],
         canvas.width / 2,
         canvas.height / 2,
         fontSize,
@@ -145,7 +147,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "amongst trillions and trillions of stars, over billions of years",
+        "amongst stars,over billions years we finally met",
         canvas.width / 2,
         canvas.height / 2
       );
@@ -182,7 +184,7 @@ function drawText() {
   if (frameNumber > 1800 && frameNumber < 2100) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "is so incredibly, unfathomably unlikely",
+      "Days with you and your little smile means alot to me",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -191,7 +193,7 @@ function drawText() {
   if (frameNumber >= 2100 && frameNumber < 2400) {
     context.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     context.fillText(
-      "is so incredibly, unfathomably unlikely",
+      "Days with you and your little smile means alot to me",
       canvas.width / 2,
       canvas.height / 2
     );
@@ -259,8 +261,8 @@ function drawText() {
     if (window.innerWidth < 600) {
       drawTextWithLineBreaks(
         [
-          "I love you so much , more than",
-          "all the time and space in the universe can contain",
+          "I love you for all that you are , more than",
+          "all that you have been and all that you will be",
         ],
         canvas.width / 2,
         canvas.height / 2,
@@ -269,7 +271,7 @@ function drawText() {
       );
     } else {
       context.fillText(
-        "I love you so much , more than all the time and space in the universe can contain",
+        "I love you for all that you are more than,all that you have been and all that you will be",
         canvas.width / 2,
         canvas.height / 2
       );
